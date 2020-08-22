@@ -1,131 +1,130 @@
- and conv('a',16,2)=conv('a',16,2) --+
- and conv('a',16,2)=conv('a',161,2) --+
-and conv('a',16,2)=conv('a',16,2) --+
-and conv('a',16,2)=conv('a',161,2) --+
-' and conv('a',16,2)=conv('a',16,2) --+
-' and conv('a',16,2)=conv('a',161,2) --+
-" and conv('a',16,2)=conv('a',16,2) --+
-" and conv('a',16,2)=conv('a',161,2) --+
- and conv(15,16,2)=conv(15,16,2) --+
- and conv(15,16,2)=conv(15,161,2) --+
-and conv(15,16,2)=conv(15,16,2) --+
-and conv(15,16,2)=conv(15,161,2) --+
-' and conv(15,16,2)=conv(15,16,2) --+
-' and conv(15,16,2)=conv(15,161,2) --+
-" and conv(15,16,2)=conv(15,16,2) --+
-" and conv(15,16,2)=conv(15,161,2) --+
- and connection_id()=connection_id() --+
- and connection_id(1)=connection_id() --+
-and connection_id()=connection_id() --+
-and connection_id(1)=connection_id() --+
-' and connection_id()=connection_id() --+
-' and connection_id(1)=connection_id() --+
-" and connection_id()=connection_id() --+
-" and connection_id(1)=connection_id() --+
- AND IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
-' AND IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
-" AND IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
- and crc32('MySQL')=crc32('MySQL') --+
- and crc32('MySQL')=crc32('MySQL1') --+
-' and crc32('MySQL')=crc32('MySQL') --+
-' and crc32('MySQL')=crc32('MySQL1') --+
-" and crc32('MySQL')=crc32('MySQL') --+
-" and crc32('MySQL')=crc32('MySQL1') --+
- and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
- and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
-' and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
-' and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
-" and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
-" and BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
- and @@CONNECTIONS>0
- and @@CONNECTIONS1>0
-' and @@CONNECTIONS>0
-' and @@CONNECTIONS1>0
-" and @@CONNECTIONS>0
-" and @@CONNECTIONS1>0
- and @@CONNECTIONS=@@CONNECTIONS
- and @@CONNECTIONS1=@@CONNECTIONS
-' and @@CONNECTIONS=@@CONNECTIONS
-' and @@CONNECTIONS1=@@CONNECTIONS
-" and @@CONNECTIONS=@@CONNECTIONS
-" and @@CONNECTIONS=1@@CONNECTIONS
- and @@CPU_BUSY=@@CPU_BUSY
- and @@CPU_BUSY=@@CPU_BUSY1
-' and @@CPU_BUSY=@@CPU_BUSY
-' and @@CPU_BUSY=@@CPU_BUSY1
-" and @@CPU_BUSY=@@CPU_BUSY
-" and @@CPU_BUSY=@@CPU_BUSY1
+%20and%20conv('a',16,2)=conv('a',16,2)%20--+
+%20and%20conv('a',16,2)=conv('a',161,2)%20--+
+and%20conv('a',16,2)=conv('a',16,2)%20--+
+and%20conv('a',16,2)=conv('a',161,2)%20--+
+'%20and%20conv('a',16,2)=conv('a',16,2)%20--+
+'%20and%20conv('a',16,2)=conv('a',161,2)%20--+
+"%20and%20conv('a',16,2)=conv('a',16,2)%20--+
+"%20and%20conv('a',16,2)=conv('a',161,2)%20--+
+%20and%20conv(15,16,2)=conv(15,16,2)%20--+
+%20and%20conv(15,16,2)=conv(15,161,2)%20--+
+and%20conv(15,16,2)=conv(15,16,2)%20--+
+and%20conv(15,16,2)=conv(15,161,2)%20--+
+'%20and%20conv(15,16,2)=conv(15,16,2)%20--+
+'%20and%20conv(15,16,2)=conv(15,161,2)%20--+
+"%20and%20conv(15,16,2)=conv(15,16,2)%20--+
+"%20and%20conv(15,16,2)=conv(15,161,2)%20--+
+%20and%20connection_id()=connection_id()%20--+
+%20and%20connection_id(1)=connection_id()%20--+
+and%20connection_id()=connection_id()%20--+
+and%20connection_id(1)=connection_id()%20--+
+'%20and%20connection_id()=connection_id()%20--+
+'%20and%20connection_id(1)=connection_id()%20--+
+"%20and%20connection_id()=connection_id()%20--+
+"%20and%20connection_id(1)=connection_id()%20--+
+%20AND%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+'%20AND%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+"%20AND%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+%20and%20crc32('MySQL')=crc32('MySQL')%20--+
+%20and%20crc32('MySQL')=crc32('MySQL1')%20--+
+'%20and%20crc32('MySQL')=crc32('MySQL')%20--+
+'%20and%20crc32('MySQL')=crc32('MySQL1')%20--+
+"%20and%20crc32('MySQL')=crc32('MySQL')%20--+
+"%20and%20crc32('MySQL')=crc32('MySQL1')%20--+
+%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
+%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
+'%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
+'%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
+"%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(123)
+"%20and%20BINARY_CHECKSUM(123)=BINARY_CHECKSUM(1231)
+%20and%20@@CONNECTIONS>0
+%20and%20@@CONNECTIONS1>0
+'%20and%20@@CONNECTIONS>0
+'%20and%20@@CONNECTIONS1>0
+"%20and%20@@CONNECTIONS>0
+"%20and%20@@CONNECTIONS1>0
+%20and%20@@CONNECTIONS=@@CONNECTIONS
+%20and%20@@CONNECTIONS1=@@CONNECTIONS
+'%20and%20@@CONNECTIONS=@@CONNECTIONS
+'%20and%20@@CONNECTIONS1=@@CONNECTIONS
+"%20and%20@@CONNECTIONS=@@CONNECTIONS
+"%20and%20@@CONNECTIONS=1@@CONNECTIONS
+%20and%20@@CPU_BUSY=@@CPU_BUSY
+%20and%20@@CPU_BUSY=@@CPU_BUSY1
+'%20and%20@@CPU_BUSY=@@CPU_BUSY
+'%20and%20@@CPU_BUSY=@@CPU_BUSY1
+"%20and%20@@CPU_BUSY=@@CPU_BUSY
+"%20and%20@@CPU_BUSY=@@CPU_BUSY1
 USER_ID(1)=USER_ID(1)
- and ROWNUM=ROWNUM
- and ROWNUM=ROWNUM1
-' and ROWNUM=ROWNUM
-' and ROWNUM=ROWNUM1
-" and ROWNUM=ROWNUM
-" and ROWNUM=ROWNUM1
- and RAWTOHEX('AB')=RAWTOHEX('AB')
- and RAWTOHEX('AB')=RAWTOHEX('ABC')
-' and RAWTOHEX('AB')=RAWTOHEX('AB')
-' and RAWTOHEX('AB')=RAWTOHEX('ABC')
-" and RAWTOHEX('AB')=RAWTOHEX('AB')
-" and RAWTOHEX('AB')=RAWTOHEX('ABC')
- and LNNVL(0=123)
- and LNNVL(0=1234)
-' and LNNVL(0=123)
-' and LNNVL(0=1234)
-" and LNNVL(0=123)
-" and LNNVL(0=1234)
- and 5::int=5
- and 56::int=5
-' and 5::int=5
-' and 56::int=5
-" and 5::int=5
-" and 56::int=5
- and 5::integer=5
- and 56::integer=5
-' and 5::integer=5
-' and 56::integer=5
-" and 5::integer=5
-" and 56::integer=5
- and pg_client_encoding()=pg_client_encoding()
-' and pg_client_encoding()=pg_client_encoding()
-" and pg_client_encoding()=pg_client_encoding()
- and  get_current_ts_config()=get_current_ts_config()
-' and get_current_ts_config()=get_current_ts_config()
-" and get_current_ts_config()=get_current_ts_config()
- and  quote_literal(42.5)=quote_literal(42.5)
- and  quote_literal(42.56)=quote_literal(42.5)
-' and quote_literal(42.5)=quote_literal(42.5)
-' and quote_literal(42.56)=quote_literal(42.5)
-" and quote_literal(42.5)=quote_literal(42.5)
-" and quote_literal(42.56)=quote_literal(42.5)
- and  current_database()=current_database()
-' and current_database()=current_database()
-" and current_database()=current_database()
- and  sqlite_version()=sqlite_version()
-' and sqlite_version()=sqlite_version()
-" and sqlite_version()=sqlite_version()
- and  last_insert_rowid()>1
-' and last_insert_rowid()>1
-" and last_insert_rowid()>1
- and  last_insert_rowid()=last_insert_rowid()
-' and last_insert_rowid()=last_insert_rowid()
-" and last_insert_rowid()=last_insert_rowid()
- and val(cvar(1))=1
- and val(cvar(12))=1
-' and val(cvar(1))=1
-' and val(cvar(12))=1
-" and val(cvar(1))=1
-" and val(cvar(12))=1
- and  IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
- and  IIF(ATN(23)>0,1,0) BETWEEN 2 AND 0
-' and IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
-' and IIF(ATN(23)>0,1,0) BETWEEN 2 AND 0
-" and IIF(ATN(2)>0,1,0) BETWEEN 2 AND 0
-" and IIF(ATN(23)>0,1,0) BETWEEN 2 AND 0
- and cdbl(1)=cdbl(1)
- and cdbl(12)=cdbl(1)
-' and cdbl(1)=cdbl(1)
-' and cdbl(12)=cdbl(1)
-" and cdbl(1)=cdbl(1)
-" and cdbl(12)=cdbl(1)
-1
+%20and%20ROWNUM=ROWNUM
+%20and%20ROWNUM=ROWNUM1
+'%20and%20ROWNUM=ROWNUM
+'%20and%20ROWNUM=ROWNUM1
+"%20and%20ROWNUM=ROWNUM
+"%20and%20ROWNUM=ROWNUM1
+%20and%20RAWTOHEX('AB')=RAWTOHEX('AB')
+%20and%20RAWTOHEX('AB')=RAWTOHEX('ABC')
+'%20and%20RAWTOHEX('AB')=RAWTOHEX('AB')
+'%20and%20RAWTOHEX('AB')=RAWTOHEX('ABC')
+"%20and%20RAWTOHEX('AB')=RAWTOHEX('AB')
+"%20and%20RAWTOHEX('AB')=RAWTOHEX('ABC')
+%20and%20LNNVL(0=123)
+%20and%20LNNVL(0=1234)
+'%20and%20LNNVL(0=123)
+'%20and%20LNNVL(0=1234)
+"%20and%20LNNVL(0=123)
+"%20and%20LNNVL(0=1234)
+%20and%205::int=5
+%20and%2056::int=5
+'%20and%205::int=5
+'%20and%2056::int=5
+"%20and%205::int=5
+"%20and%2056::int=5
+%20and%205::integer=5
+%20and%2056::integer=5
+'%20and%205::integer=5
+'%20and%2056::integer=5
+"%20and%205::integer=5
+"%20and%2056::integer=5
+%20and%20pg_client_encoding()=pg_client_encoding()
+'%20and%20pg_client_encoding()=pg_client_encoding()
+"%20and%20pg_client_encoding()=pg_client_encoding()
+%20and%20%20get_current_ts_config()=get_current_ts_config()
+'%20and%20get_current_ts_config()=get_current_ts_config()
+"%20and%20get_current_ts_config()=get_current_ts_config()
+%20and%20%20quote_literal(42.5)=quote_literal(42.5)
+%20and%20%20quote_literal(42.56)=quote_literal(42.5)
+'%20and%20quote_literal(42.5)=quote_literal(42.5)
+'%20and%20quote_literal(42.56)=quote_literal(42.5)
+"%20and%20quote_literal(42.5)=quote_literal(42.5)
+"%20and%20quote_literal(42.56)=quote_literal(42.5)
+%20and%20%20current_database()=current_database()
+'%20and%20current_database()=current_database()
+"%20and%20current_database()=current_database()
+%20and%20%20sqlite_version()=sqlite_version()
+'%20and%20sqlite_version()=sqlite_version()
+"%20and%20sqlite_version()=sqlite_version()
+%20and%20%20last_insert_rowid()>1
+'%20and%20last_insert_rowid()>1
+"%20and%20last_insert_rowid()>1
+%20and%20%20last_insert_rowid()=last_insert_rowid()
+'%20and%20last_insert_rowid()=last_insert_rowid()
+"%20and%20last_insert_rowid()=last_insert_rowid()
+%20and%20val(cvar(1))=1
+%20and%20val(cvar(12))=1
+'%20and%20val(cvar(1))=1
+'%20and%20val(cvar(12))=1
+"%20and%20val(cvar(1))=1
+"%20and%20val(cvar(12))=1
+%20and%20%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+%20and%20%20IIF(ATN(23)>0,1,0)%20BETWEEN%202%20AND%200
+'%20and%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+'%20and%20IIF(ATN(23)>0,1,0)%20BETWEEN%202%20AND%200
+"%20and%20IIF(ATN(2)>0,1,0)%20BETWEEN%202%20AND%200
+"%20and%20IIF(ATN(23)>0,1,0)%20BETWEEN%202%20AND%200
+%20and%20cdbl(1)=cdbl(1)
+%20and%20cdbl(12)=cdbl(1)
+'%20and%20cdbl(1)=cdbl(1)
+'%20and%20cdbl(12)=cdbl(1)
+"%20and%20cdbl(1)=cdbl(1)
+"%20and%20cdbl(12)=cdbl(1)
